@@ -63,7 +63,7 @@ h1{
     display: flex;
     max-width: 300px;
     margin: 0 auto;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 #people{
@@ -96,4 +96,26 @@ h1{
 
 #total{
     font-size: 25px;
+}
+
+#calculate-section{
+    text-align: center;
+    padding:20px;
+}
+
+#calculate{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #52796F;
+    transition: background 0.3s;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#calculate:hover{
+    background-color: #84A98C;    
 }
