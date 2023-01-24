@@ -25,9 +25,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - Git e Github
 
-## 💻 Projeto
+## Projeto
 
-<p>Pode experimentar a aplicação no seguinte link <a href='https://nunoncunha.github.io/tipcalculator/'>Tip Calculator</a></p>
+<p>Pode experimentar a aplicação no seguinte link <a href='https://nunoncunha.github.io/tipcalculator/' target='_blank'>Tip Calculator</a></p>
+
 ## Layout
 
 ## Licença
