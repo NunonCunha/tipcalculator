@@ -1,6 +1,5 @@
 let bill = document.querySelector("#bill");
 let tip = document.querySelector("#tip");
-let person = document.getElementById("people-count").textContent;
 let peopleCount = document.getElementById("people-count");
 let total = document.getElementById("total");
 let count = 1;
