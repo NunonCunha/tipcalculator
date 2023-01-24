@@ -13,8 +13,8 @@ Aplicação para calculo de gorjeta com tecnologias FrontEnd <br/>
 
 <br>
 
-<p align="center" width="50%">
-  <img alt="Tip Calculator" src="tip.png" width="100%">
+<p align="center">
+  <img alt="Tip Calculator" src="tip.png" width="50%">
 </p>
 
 ## Tecnologias
