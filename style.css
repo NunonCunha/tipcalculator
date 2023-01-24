@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #CAD2C5;
+}
+
 #container{
     width: 100%;
     padding: 15px;
