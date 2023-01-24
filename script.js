@@ -6,12 +6,14 @@ let total = document.getElementById("total");
 let count = 1;
 
 const tipCalculator = () => {
-  let result = (bill.value * (tip.value / 100)) / count;
+  let result = (bill.value * (tip.value / 100) + Number(bill.value)) / count;
   total.textContent = `$${result.toFixed(2)}`;
 };
 
 const subs = () => {
-  count = Number(peopleCount.textContent) - 1;
+  if (count > 1) {
+    count = Number(peopleCount.textContent) - 1;
+  }
   peopleCount.textContent = count;
   return count;
 };
