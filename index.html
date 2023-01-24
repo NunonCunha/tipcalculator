@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Tip Calculator</h1>
+      <div id="main-box">
+        <section>
+          <div class="bill-input">
+            <div class="inputs">
+              <i class="fa fa-dollar icon"></i>
+              <label for="bill">Bill Total</label>
+              <input
+                id="bill"
+                class="input-field"
+                type="text"
+                placeholder="Bill total"
+              />
+              <i class="fa fa-percent icon"></i>
+              <label for="bill">Tip</label>
+              <input
+                id="tip"
+                class="input-field"
+                type="text"
+                placeholder="Tip"
+              />
+            </div>
+          </div>
+        </section>
+        <section id="values">
+          <div id="people">
+            <p>People</p>
+            <div id="number-people">
+              <button id="adds" class="button" onclick="adds()">+</button>
+              <p id="people-count">1</p>
+              <button id="subs" class="button" onclick="subs()">-</button>
+            </div>
+          </div>
+          <div id="total-person">
+            <p>Total per Person</p>
+            <p id="total">$0.00</p>
+          </div>
+        </section>
+        <button id="calculate" onclick="tipCalculator()">Calculate</button>
+      </div>
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>

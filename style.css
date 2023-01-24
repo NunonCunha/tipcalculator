@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100%;
+    padding: 15px;
+    margin-top: 60px;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: #2F3E46;
+    padding: 10px;
+}
+
+#main-box{
+    background-color: #2F3E46;
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.bill-input{
+    max-width:300px;
+    margin:auto;
+}
+.inputs i {
+    position: absolute;
+    
+}
+  
+.inputs {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 35px 0 0 10px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px 30px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgba(202, 210, 197,0.6);
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+#values{
+    display: flex;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+#people{
+    flex: 1;
+}
+
+#total-person{
+    flex: 1;
+    text-align: right;
+}
+
+#number-people{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.button{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+#people-count{
+    font-size: 20px;
+}
+
+#total{
+    font-size: 25px;
+}
