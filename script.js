@@ -6,7 +6,7 @@ let count = 1;
 
 const tipCalculator = () => {
   let result = (bill.value * (tip.value / 100) + Number(bill.value)) / count;
-  total.textContent = `$${result.toFixed(2)}`;
+  total.textContent = `€${result.toFixed(2)}`;
 };
 
 const subs = () => {
